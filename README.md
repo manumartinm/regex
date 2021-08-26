@@ -18,7 +18,7 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 
 ### 
 
-### Remove emoty HTML Tags
+### Remove empty HTML Tags
 
 <.[^>]*>(\s+|()|(&nbsp;)*|\s+(&nbsp;)*|(&nbsp;)*\s+|\s+(&nbsp;)*\s+)<\/.[^>]*>
 
@@ -49,6 +49,10 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 ## Match a URL with http or https
   
 (https?:\/\/(?:[[:alnum:]]+\.)?[[:alnum:]]+\.[A-Za-z]{3})(\/\S*)
+  
+### For JS
+
+https?:\/\/(www\.)?[A-Za-z0-9]{1,50}\.[A-Za-z]+(\/)?\S.*
 
 ## Email Verificator
 
