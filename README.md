@@ -18,7 +18,7 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 
 ### 
 
-### Remove empty HTML Tags
+### Remove emoty HTML Tags
 
 <.[^>]*>(\s+|()|(&nbsp;)*|\s+(&nbsp;)*|(&nbsp;)*\s+|\s+(&nbsp;)*\s+)<\/.[^>]*>
 
@@ -48,15 +48,29 @@ El siguiente listado de Regex solo tiene como fin un uso propio
   
 ## Match a URL with http or https
   
-(https?:\/\/(?:[[:alnum:]]+\.)?[[:alnum:]]+\.[A-Za-z]{3})(\/\S*)
+https?:\/\/(?:[[:alnum:]]+\.)?[[:alnum:]]+\.[A-Za-z]{3})(\/\S*
   
-### For JS
-
+### For Js
+  
 https?:\/\/(www\.)?[A-Za-z0-9]{1,50}\.[A-Za-z]+(\/)?\S.*
-
+  
 ## Email Verificator
 
 ^(?=[a-z][a-z0-9@._-]{5,40}$)[a-z0-9._-]{1,20}@(?:(?=[a-z0-9-]{1,15}\.)[a-z0-9]+(?:-[a-z0-9]+)*\.){1,2}[a-z]{2,6}$
+  
+## Take anchors
+  
+href="(?:https:\/\/res\.cloudinary).*?"
+
+## Take IP Port
+  
+([^\:\n,]+:\d+,?)+
+  
+## Match files
+ 
+### Match YAML files
+  
+[^/]+\.yml|[^/]+\.yaml
 
 ## Useful Regex Articles
 
