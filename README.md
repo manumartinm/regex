@@ -10,13 +10,15 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 
 ## HTML Regex
 
+## Strip HTML Comments
+
+<!--(.*?)-->
+
 ### Table
 
 <td\s*.*>\s*.*<\/td>
 
 <table\s*.*>\s*.*<\/table>
-
-### 
 
 ### Remove emoty HTML Tags
 
@@ -66,15 +68,38 @@ href="(?:https:\/\/res\.cloudinary).*?"
   
 ([^\:\n,]+:\d+,?)+
   
-## Match files
- 
-### Match YAML files
+## Cut HTTP protocol from a domain
   
-[^/]+\.yml|[^/]+\.yaml
+https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
+  
+## Leading & Trailing Whitespace
+  
+^[ \s]+|[ \s]+$
+  
+### Sort KW by Length
+
+### 1-word keyword
+  
+^[^\s]*$
+  
+### 2-word keyword
+  
+^[^\s]*\s[^\s]*$
+ 
+### 3-word keyword
+  
+^([^\s]*\s){2}[^\s]*$
+  
+### 5-words-and-more keywords 
+  
+^([^\s]*\s){4}[^\s]*$ 
 
 ## Useful Regex Articles
 
 1. [Google Regex - Lino](https://www.mecagoenlos.com/Posicionamiento/expresiones-regulares-en-google.php)
 2. [Regex - Esteve Castells](https://gist.github.com/estevecastells/436c2a89277f757bcb38ae900fdac71e)
-2. [SEO Regex](https://www.jcchouinard.com/regex-for-seo/)
-2. [HTML Tags](https://networking.ringofsaturn.com/Web/removetags.php)
+3. [SEO Regex](https://www.jcchouinard.com/regex-for-seo/)
+4. [HTML Tags](https://networking.ringofsaturn.com/Web/removetags.php)
+5. [GA Regex](https://online-metrics.com/regular-expressions/)
+6. [GTM Regex](https://measureschool.com/regular-expressions-google-tag-manager/)
+
