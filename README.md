@@ -76,6 +76,14 @@ https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
   
 ^[ \s]+|[ \s]+$
   
+## Line does not contains specific string
+  
+^(?!.*\bstring.*\b).*
+  
+## Line contains specific string
+  
+^(.*\bstring.*\b).*
+  
 ### Sort KW by Length
 
 ### 1-word keyword
