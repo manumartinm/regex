@@ -110,4 +110,5 @@ https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
 4. [HTML Tags](https://networking.ringofsaturn.com/Web/removetags.php)
 5. [GA Regex](https://online-metrics.com/regular-expressions/)
 6. [GTM Regex](https://measureschool.com/regular-expressions-google-tag-manager/)
+7. [MJ Chacon - Useful Regex for Screaming Frog](https://twitter.com/mjcachon/status/1440290214765678603)
 
