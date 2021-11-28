@@ -10,7 +10,7 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 
 ## HTML Regex
 
-## Strip HTML Comments
+### Strip HTML Comments
 
 <!--(.*?)-->
 
@@ -20,7 +20,7 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 
 <table\s*.*>\s*.*<\/table>
 
-### Remove emoty HTML Tags
+### Remove empty HTML Tags
 
 <.[^>]*>(\s+|()|(&nbsp;)*|\s+(&nbsp;)*|(&nbsp;)*\s+|\s+(&nbsp;)*\s+)<\/.[^>]*>
 
