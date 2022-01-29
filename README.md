@@ -7,11 +7,8 @@ El siguiente listado de Regex solo tiene como fin un uso propio
 .*(options).*
 
 ## Amazon Regex
-<<<<<<< HEAD
 mediamarkt|cambiar| no |walmart|milanuncios|uso|tienda casa|corte ingles|du|zara|walmart|antena 3|formula 1|tv|busco|ok|motogp|carrefour|aldi|forocoches|oferta|ofertas|configurar|instrucciones|bricomart|montar|qual|ç|leroy|codigo|minecraft|instalacion|app|descargar|gif|arduino|abrir|jpg|esquema|png|aiho|lidl|segunda mano|wikipedia|probar|ver|medida| y |que|como|usa|comprar|leroy merlin|ikea|bricodepot|mejor| o |media markt|opini|vs|precio|amazon|balay|crisol|alcampo|wallapop|tutorial|video|quitar|klarstein|hacer|teka|hipercor|aki|el corte ingles|el corte inglés| q |youtube|mercado libre|la tienda en casa| + | - | e |para|aliexpress|barat(a|o)s?|mano a mano|walmart|corte ingles|por [0-9][0-9] euros|mil anuncios|merkamueble|manoamano|conforama|ventas?| tipo |primark|vendo|outlet
-=======
 (mediamarkt|cambiar| no |walmart| en | por |baratas|baratos|online|tipos|quito|venta|milanuncios|uso|tienda casa|corte ingles|du|zara|walmart|antena 3|formula 1|tv|busco|ok|motogp|carrefour|aldi|forocoches|oferta|ofertas|configurar|instrucciones|bricomart|montar|qual|ç|leroy|codigo|minecraft|instalacion|app|descargar|gif|arduino|abrir|jpg|esquema|png|aiho|lidl|segunda mano|wikipedia|probar|ver|medida| y |que|como|usa|comprar|leroy merlin|ikea|bricodepot|mejor| o |media markt|opini|vs|precio|amazon|balay|crisol|alcampo|wallapop|tutorial|video|quitar|klarstein|hacer|teka|hipercor|aki|el corte ingles|el corte inglés| q |youtube|mercado libre|la tienda en casa| + | - | e |para|aliexpress)
->>>>>>> bb3ac810b3231876cd7392d908def3cb911447fa
 
 ## Provincias Regex
 A Coruña|Álava|Albacete|Alicante|Almería|Asturias|Ávila|Badajoz|Baleares|Barcelona|Burgos|Cáceres|Cádiz|Cantabria|Castellón|Ciudad Real|Córdoba|Cuenca|Girona|Granada|Guadalajara|Gipuzkoa|Huelva|Huesca|Jaén|La Rioja|Las Palmas|León|Lérida|Lugo|Madrid|Málaga|Murcia|Navarra|Ourense|Palencia|Pontevedra|Salamanca|Segovia|Sevilla|Soria|Tarragona|Santa Cruz de Tenerife|Tenerife|Teruel|Toledo|Valencia|Valladolid|Vizcaya|Zamora|Zaragoza|a coruña|álava|albacete|alicante|almería|asturias|ávila|badajoz|baleares|barcelona|burgos|cáceres|cádiz|cantabria|castellón|ciudad real|córdoba|cuenca|girona|granada|guadalajara|gipuzkoa|huelva|huesca|jaén|la rioja|las palmas|león|lérida|lugo|madrid|málaga|murcia|navarra|ourense|palencia|pontevedra|salamanca|segovia|sevilla|soria|tarragona|santa cruz de tenerife|teruel|toledo|valencia|valladolid|vizcaya|zamora|zaragoza|tenerife
@@ -28,7 +25,6 @@ A Coruña|Álava|Albacete|Alicante|Almería|Asturias|Ávila|Badajoz|Baleares|Bar
 
 <table\s*.*>\s*.*<\/table>
 
-<<<<<<< HEAD
 ### SEO
 
 ## Match all queries that contain a word
@@ -91,8 +87,6 @@ A Coruña|Álava|Albacete|Alicante|Almería|Asturias|Ávila|Badajoz|Baleares|Bar
 
 who|what|where|when|why|how|was|did|do|is|are|aren’t|won’t|does|if|can|could|should|would|won’t|were|weren’t|shouldn’t|couldn’t|cannot|can’t|didn’t|did not|does|doesn’t|wouldn’t
 
-=======
->>>>>>> bb3ac810b3231876cd7392d908def3cb911447fa
 ### Remove empty HTML Tags
 
 <.[^>]*>(\s+|()|(&nbsp;)*|\s+(&nbsp;)*|(&nbsp;)*\s+|\s+(&nbsp;)*\s+)<\/.[^>]*>
@@ -181,11 +175,8 @@ https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i
 2. [Regex - Esteve Castells](https://gist.github.com/estevecastells/436c2a89277f757bcb38ae900fdac71e)
 3. [SEO Regex](https://www.jcchouinard.com/regex-for-seo/)
 4. [HTML Tags](https://networking.ringofsaturn.com/Web/removetags.php)
-<<<<<<< HEAD
 5. [GA Regex](https://www.optimizesmart.com/regular-expression-guide-for-seos/)
-=======
 5. [GA Regex](https://online-metrics.com/regular-expressions/)
 6. [GTM Regex](https://measureschool.com/regular-expressions-google-tag-manager/)
 7. [MJ Chacon - Useful Regex for Screaming Frog](https://twitter.com/mjcachon/status/1440290214765678603)
 
->>>>>>> bb3ac810b3231876cd7392d908def3cb911447fa
